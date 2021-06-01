@@ -1,0 +1,59 @@
+/* Dicee Game ver. 1.1 - Challenge
+/* Mariosnb 2021 */
+
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-image: url("images/baize.jpg"); /* Photo by engin akyurt on Unsplash */
+  background-color: #cccccc;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 5rem;
+  color: beige;
+}
+
+p {
+  font-size: 2rem;
+  color: bisque;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+.btn {
+  text-align: center;
+  background-color: rgb(119, 204, 94);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.btn:hover {
+  background-color: rgb(64, 221, 16);
+}

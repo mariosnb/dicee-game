@@ -1,0 +1,36 @@
+<!-- Dicee Game ver. 1.1 - Challenge -->
+<!-- Mariosnb 2021 -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dicee</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>Click Play to start!</h1>
+
+      <div class="dice">
+        <p>Player 1</p>
+        <img class="img1" src="images/dice6.png">
+      </div>
+
+      <div class="dice">
+        <p>Player 2</p>
+        <img class="img2" src="images/dice6.png">
+      </div>
+      <br><br><br>
+      <input class="btn" type="button" onclick="play()" value="Play 🏁">
+      <audio id="audio" src="sounds/dices.wav"></audio>
+    </div>
+    <script src="index.js"></script>
+    <footer>
+      🎲  Mariosnb 2021 🎲 
+    </footer>
+  </body>
+</html>
