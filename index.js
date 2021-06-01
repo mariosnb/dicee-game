@@ -12,11 +12,11 @@ function randomNumber1() {
    document.querySelector(".img2").setAttribute("src", randomImageSource2);
 
    if (dice1>dice2)
-   document.querySelector("h1").innerHTML="🚩 Player 1 Wons";
+   document.querySelector("h1").innerHTML= "🚩 Player 1 Wons";
    else if (dice1<dice2)
-   document.querySelector("h1").innerHTML="Player 2 Wons 🚩";
+   document.querySelector("h1").innerHTML= "Player 2 Wons 🚩";
    else
-   document.querySelector("h1").innerHTML="🏳️ Draw 🏳️";
+   document.querySelector("h1").innerHTML= "🏳️ Draw 🏳️";
 }
 
 function diceAnimate () {
